@@ -47,9 +47,21 @@ For each account, identify and categorize:
 
 Ignore promotional content (course sales, book promos, subscriber pitches) unless it contains substantive analysis alongside the promotion.
 
+### Step 2b: Translate to French
+
+All content in the report must be written in French, regardless of the original language of the posts. Several default accounts post in English (e.g., @ValueSeeker_, @Convertbond). When summarizing their posts:
+
+- Translate all key points, analysis, and commentary into natural, fluent French
+- Keep financial tickers, symbols, and proper nouns as-is (e.g., $EURCHF, WTI, S&P 500, ISM, MACD, Novo Nordisk)
+- Keep numbers and price levels as-is (e.g., "$69.8", "70.5", "0.905")
+- Use commonly accepted French financial terms when they exist (e.g., "overbought" → "suracheté", "breakout" → "cassure", "bullish" → "haussier", "bearish" → "baissier", "stagflation" remains "stagflation")
+- If a quote from the original post is particularly impactful, you can include a short excerpt in the original language in parentheses, but the surrounding summary must be in French
+
+This applies to everything: the .md report file, the Key Takeaways section, and the Telegram notification. The user should never have to mentally translate English when reading the output.
+
 ### Step 3: Generate the report
 
-Write the report in French. Use this structure:
+Write the report entirely in French. Use this structure:
 
 ```markdown
 ---
@@ -60,25 +72,25 @@ tags: [trading, x-scan]
 # X Trading Scan — [Date in French format, e.g. "4 Mars 2026"]
 
 ## Contexte du jour
-[1-2 sentences on the dominant market theme if one exists — geopolitical event, major data release, etc. If no dominant theme, skip this section.]
+[1-2 phrases sur le thème dominant du marché s'il y en a un — événement géopolitique, publication macro, etc. Sinon, sauter cette section.]
 
 ---
 
-## @handle (Display Name)
-[Repeat for each account]
+## @handle (Nom)
+[Répéter pour chaque compte]
 
-**[Topic] ([timeframe, e.g. "6h ago"])**
-- Key point 1
-- Key point 2
-- Specific levels/tickers mentioned
+**[Sujet] ([timeframe, ex. "il y a 6h"])**
+- Point clé 1
+- Point clé 2
+- Niveaux/tickers mentionnés
 
 ---
 
-## Key Takeaways
+## Points Clés
 
-1. **[Theme]** — [Synthesis across accounts, actionable insight]
-2. **[Theme]** — [...]
-[3-5 takeaways max. Focus on convergence between accounts — when multiple accounts point to the same trade or theme, that's the highest signal.]
+1. **[Thème]** — [Synthèse inter-comptes, insight actionnable]
+2. **[Thème]** — [...]
+[3-5 points max. Focus sur la convergence entre comptes — quand plusieurs comptes pointent vers le même trade ou thème, c'est le signal le plus fort.]
 ```
 
 The Key Takeaways section is the most important part. It should synthesize across accounts, not just repeat what each one said. If two accounts are both bullish on the same asset for different reasons, say so. If they disagree, flag the divergence.
@@ -97,14 +109,14 @@ If a report for today's date already exists, append a suffix (e.g., `-v2`) rathe
 
 ### Step 5: Telegram notification (optional but default)
 
-After saving the report, send a concise summary via Telegram using the `telegram` skill. The message should be short — just the key takeaways, not the full report. Format:
+After saving the report, send a concise summary via Telegram using the `telegram` skill. The message must be in French. Format:
 
 ```
 📊 X Trading Scan — [Date]
 
-[Key takeaway 1]
-[Key takeaway 2]
-[Key takeaway 3]
+[Point clé 1 en français]
+[Point clé 2 en français]
+[Point clé 3 en français]
 
 📄 Rapport complet dans Obsidian
 ```
