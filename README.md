@@ -15,9 +15,9 @@ is configured.
 
 ## Default accounts
 
-- `@NCheron_bourse` — French market analyst (commodities, European equities, macro)
-- `@ValueSeeker_` — Value/commodity investor (oil, precious metals, macro charts)
-- `@Convertbond` — Lawrence McDonald (macro, stagflation, factor rotation)
+- `@NCheron_bourse` - French market analyst (commodities, European equities, macro)
+- `@ValueSeeker_` - Value/commodity investor (oil, precious metals, macro charts)
+- `@Convertbond` - Lawrence McDonald (macro, stagflation, factor rotation)
 
 ## Installation
 
@@ -49,3 +49,5 @@ Say things like:
 
 Reports are research summaries, not investment advice. Verify material claims
 against primary market or issuer sources before acting.
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
